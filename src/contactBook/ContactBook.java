@@ -93,4 +93,18 @@ public class ContactBook {
         return contacts[currentContact++];
     }
 
+    public String getContact(int phone){
+        int i = 0;
+        String name= null;
+        while (i<counter) {
+            if (contacts[i].getPhone() == phone)
+                name = contacts[i].getName();
+            else
+                i++;
+        }
+        return name;
+    }
+
+
+
 }
