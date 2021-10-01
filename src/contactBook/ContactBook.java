@@ -97,10 +97,11 @@ public class ContactBook {
         int i = 0;
         String name= null;
         while (i<counter) {
-            if (contacts[i].getPhone() == phone)
+            if (contacts[i].getPhone() == phone) {
                 name = contacts[i].getName();
-            else
-                i++;
+                return name;
+            }
+            i++;
         }
         return name;
     }
