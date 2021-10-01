@@ -14,7 +14,7 @@ public class Main {
     public static final String SET_PHONE      = "SP";
     public static final String SET_EMAIL      = "SE";
     public static final String LIST_CONTACTS  = "LC";
-    public static final String GIVEN_CONTACTS = "GC";
+    public static final String GIVEN_CONTACTS = "GN";
     public static final String EQUAL_CONTACT  = "EP";
     public static final String QUIT           = "Q";
 
